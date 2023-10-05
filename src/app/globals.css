@@ -5,3 +5,20 @@
 body {
   padding-top: 60px; /* Adjust this value to match the height of your header */
 }
+
+.global{
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.global h2{
+  font-size: 64px;
+}
+
+.global p{
+  font-size: 42px;
+}

@@ -37,7 +37,7 @@ background: #f4f3f3;
 }
 
 .serviceCard h1{
-
+padding-top: 10px;
 font-size: 32px;
 font-weight: 600;
 line-height: 38px;
@@ -49,6 +49,7 @@ color: #173E43;
 }
 
 .serviceCard p{
+    padding-top: 10px;
 
     /* width: 492px; */
     
