@@ -6,11 +6,12 @@ const AboutUs=()=>{
         <>
         <section className={styles.mnSecAbout} id='about-us'>
             <div className={styles.top_aboutHd}>
-                <h1>Why Choose Us</h1>
+                <h1>Why Choose Mind Innovation?</h1>
             </div>
               
             <div className={styles.about_card}>
-                <div>
+                <div className='single_abt_bx'>
+
                 <Image
                             className={styles.banner_img}
                             src='/User Network.svg'
@@ -18,13 +19,13 @@ const AboutUs=()=>{
                             height={128}
                             alt="bannner-web"
                         />
-                        <h1>Expertise</h1>
+                        <h1>Expertise at Work</h1>
 
-                        <p>Our team of experienced experts have the knowledge and expertise to deliver innovative IT solutions that meet your unique needs.</p>
+                        <p>With a team of experts at the forefront of technology trends, we offer in-depth knowledge and experience. Count on us to provide solutions that reflect our commitment to excellence.</p>
 
 
                 </div>
-                <div>
+                <div className='single_abt_bx'>
                 <Image
                             className={styles.banner_img}
                             src='/User Network.svg'
@@ -32,29 +33,14 @@ const AboutUs=()=>{
                             height={128}
                             alt="bannner-web"
                         />
-                        <h1>Expertise</h1>
+                        <h1>Innovation Driven</h1>
 
-                        <p>Our team of experienced experts have the knowledge and expertise to deliver innovative IT solutions that meet your unique needs.</p>
-
-
-                </div>
-
-                <div>
-                <Image
-                            className={styles.banner_img}
-                            src='/User Network.svg'
-                            width={128}
-                            height={128}
-                            alt="bannner-web"
-                        />
-                        <h1>Expertise</h1>
-
-                        <p>Our team of experienced experts have the knowledge and expertise to deliver innovative IT solutions that meet your unique needs.</p>
+                        <p>Innovation drives us. We're constantly exploring inventive solutions, from apps to AI, to solve problems creatively and add value to your projects.</p>
 
 
                 </div>
 
-                <div>
+                <div className='single_abt_bx'>
                 <Image
                             className={styles.banner_img}
                             src='/User Network.svg'
@@ -62,9 +48,24 @@ const AboutUs=()=>{
                             height={128}
                             alt="bannner-web"
                         />
-                        <h1>Expertise</h1>
+                        <h1>Results Oriented</h1>
 
-                        <p>Our team of experienced experts have the knowledge and expertise to deliver innovative IT solutions that meet your unique needs.</p>
+                        <p>Our track record speaks for itself. We're dedicated to delivering measurable results that align with your business objectives, ensuring tangible success.</p>
+
+
+                </div>
+
+                <div className='single_abt_bx'>
+                <Image
+                            className={styles.banner_img}
+                            src='/User Network.svg'
+                            width={128}
+                            height={128}
+                            alt="bannner-web"
+                        />
+                        <h1>Client-Centric</h1>
+
+                        <p>We're not just a service provider; we're your dedicated partner. Our commitment to your success means we go the extra mile, paying attention to every detail to achieve your goals.</p>
 
 
                 </div>
@@ -77,22 +78,22 @@ const AboutUs=()=>{
         <div className={styles.tehcMn}>
             <div className={styles.lfttehcMn}>
       <h1>We believe that <span> technology </span> can change the world</h1>
-      <p>Our team of experienced professionals is dedicated to helping you achieve your goals and thrive in a rapidly evolving digital landscape.</p>
+      <p>In an era, where technology has the potential to revolutionize industries and change lives, we stand at the forefront of innovation, driving change, and making a difference.</p>
 
         <div className={styles.successProSec}>
+            <div>
+                <h1>100+</h1>
+                <p>Satisfied Clients</p>
+
+            </div>
             <div>
                 <h1>500+</h1>
                 <p>Successfull Projects</p>
 
             </div>
             <div>
-                <h1>98%</h1>
-                <p>Satisfied Clients</p>
-
-            </div>
-            <div>
-                <h1>98%</h1>
-                <p>Satisfied Clients</p>
+                <h1>10000+</h1>
+                <p>Dedicated Hours Worked</p>
 
             </div>
         </div>
