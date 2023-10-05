@@ -1,0 +1,87 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: white;
+    z-index: 1000; /* Adjust the z-index as needed */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add a shadow for a visual effect */
+  }
+
+.mn_hd_cntr {
+    margin-top: 15px;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo_img {
+    width: 180.71px;
+    height: 36px;
+
+}
+
+.menu_cntr ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+
+}
+
+.menu_cntr ul .menu_cntr_list {
+    margin-right: 30px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0em;
+    color: #173E43;
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+}
+
+.menu_cntr ul .menu_cntr_list::before {
+    content: '';
+    position: absolute;
+    bottom: -10px; /* Adjust this value to control the space between the line and text */
+    left: 0;
+    right: 0;
+    height: 3px;
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+}
+
+.menu_cntr ul .menu_cntr_list:hover::before {
+    background-color: #E7A33E;
+}
+
+.menu_cntr ul li button {
+    width: 210px;
+    height: 40px;
+    background: transparent;
+    border-radius: 6px;
+    border: 1px solid #173E43;
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0em;
+    color: #173E43;
+    cursor: pointer;
+    transition: color 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
+    text-decoration: none;
+}
+
+.menu_cntr ul li button:hover {
+    color: #E7A33E;
+    background-color: #173E43;
+    border-color: #E7A33E;
+    text-decoration: none; /* Remove the text underline on hover */
+}
+
+.active{
+    color: red;
+}

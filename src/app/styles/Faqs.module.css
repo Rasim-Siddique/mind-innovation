@@ -1,0 +1,256 @@
+.faqssec{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.faqssec{
+font-size: 64px;
+font-weight: 600;
+line-height: 81px;
+letter-spacing: -0.02em;
+text-align: center;
+color: #173E43;
+
+
+}
+
+.accordion {
+    width: 50%;
+    margin: 130px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+.item {
+    /* height:115; */
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    gap: 30px;
+    align-items: center;
+    /* padding: 30px; */
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    /* padding-bottom: 25px; */
+
+
+
+    cursor: pointer;
+    border-radius: 5px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+
+    transition: all 0.8s ease;
+    position: relative;
+}
+
+.button_acc {
+    font-size: 22px;
+    text-transform: capitalize;
+}
+
+
+
+.icon {
+    width: 24px;
+    height: 24px;
+    color: #1864ab;
+}
+
+.faqs_main_head {
+    margin-bottom: 50px;
+    font-family: 'HelveticaNeue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 110%;
+
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #001219;
+
+}
+
+.hiddenbox {
+    grid-column: 2/3;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease;
+}
+
+.hiddenbox p {
+    line-height: 1.6;
+    margin-bottom: 44px;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    word-spacing: 3px;
+}
+
+.hiddenbox ul {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.hiddenbox ul li {
+    margin-left: 16px;
+    line-height: 1.5;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    word-spacing: 3px;
+}
+
+.item.active::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #1864ab;
+    animation: borderline 0.4s ease;
+
+}
+
+.icon_plus_minus {
+    font-size: 25px;
+}
+
+@keyframes borderline {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 100%;
+
+    }
+}
+
+.active .hiddenbox {
+    max-height: 300px;
+    /* Adjust the maximum height as needed */
+
+}
+
+
+/* faqs media query  */
+@media screen and (max-width: 400px) {
+    .faqs_main_head {
+        font-size: 18px;
+        line-height: 110%;
+
+        text-align: center;
+        letter-spacing: -0.02em;
+
+        color: #001219;
+
+    }
+
+    .accordion {
+        width: 90%;
+        margin: 200px auto;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .item {
+        /* height:115; */
+        gap: 10px;
+        /* padding: 30px; */
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        /* padding-bottom: 25px; */
+
+
+
+        cursor: pointer;
+        border-radius: 5px;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+
+        transition: all 0.8s ease;
+        position: relative;
+    }
+
+    .button_acc {
+        font-size: 12px;
+    }
+
+    .hiddenbox p {
+        line-height: 1.2;
+        margin-bottom: 44px;
+        font-size: 12px;
+        letter-spacing: 0.5px;
+        word-spacing: 3px;
+    }
+
+    .icon_plus_minus {
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width: 1200px) and (min-width: 401px) {
+    .faqs_main_head {
+        font-size: 22px;
+        line-height: 110%;
+
+        text-align: center;
+        letter-spacing: -0.02em;
+
+        color: #001219;
+
+    }
+
+    .accordion {
+        width: 90%;
+        margin: 200px auto;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .item {
+        /* height:115; */
+        gap: 15px;
+        /* padding: 30px; */
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 15px;
+        /* padding-bottom: 25px; */
+
+
+
+        cursor: pointer;
+        border-radius: 5px;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+
+        transition: all 0.8s ease;
+        position: relative;
+    }
+
+    .button_acc {
+        font-size: 15px;
+    }
+
+    .hiddenbox p {
+        line-height: 1.4;
+        margin-bottom: 44px;
+        font-size: 15px;
+        letter-spacing: 0.5px;
+        word-spacing: 3px;
+    }
+
+    .icon_plus_minus {
+        font-size: 22px;
+    }
+}

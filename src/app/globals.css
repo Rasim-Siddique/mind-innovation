@@ -1,0 +1,7 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  padding-top: 60px; /* Adjust this value to match the height of your header */
+}

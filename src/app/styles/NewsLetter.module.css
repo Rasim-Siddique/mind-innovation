@@ -1,0 +1,92 @@
+.newsLetSec{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+
+height: 380px;
+background: #173E43;
+
+}
+.main_sec_newsLet{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+.main_sec_newsLet h1{
+    margin-top: 20px;
+font-size: 48px;
+font-weight: 600;
+line-height: 58px;
+letter-spacing: -0.02em;
+text-align: left;
+color: #FFFFFF;
+
+
+
+}
+
+.main_sec_newsLet p{
+    margin-top: 40px;
+    
+    width: 598px;
+    opacity: 0.75px;
+    
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: left;
+color: #F2FFFF;
+
+
+    
+    }
+
+    .main_sec_newsLet input{
+        color: white;
+        margin-top: 50px;
+        width:290px;
+height: 60px;
+/* padding: 10px 16px 10px 16px; */
+border-radius: 8px;
+border: 1px;
+gap: 10px;
+background:transparent;
+text-indent: 20px;
+
+border: 1px solid #617E82
+
+    }
+
+    .main_sec_newsLet input::placeholder{
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+color: #F2FFFF;
+
+    }
+
+    .main_sec_newsLet button{
+        margin-left: 20px;
+        width:  164px;
+height:  60px;
+padding: 10px;
+border-radius: 6px;
+/* gap: 10px; */
+background: #FCB400;
+border: 1px solid #FCB400;
+border-radius: 8px;
+font-size: 18px;
+font-weight: 600;
+line-height: 27px;
+letter-spacing: 0em;
+color: #FFFFFF;
+cursor: pointer;
+
+    }
+
+

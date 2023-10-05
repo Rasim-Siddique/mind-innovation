@@ -1,0 +1,152 @@
+.mnSecAbout {
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    padding-left: 10%;
+    padding-right: 10%;
+
+
+}
+
+.top_aboutHd h1 {
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 81px;
+    letter-spacing: -0.02em;
+    color: #173E43;
+
+}
+
+.about_card {
+    margin-top: 50px;
+    display: flex;
+    /* justify-content: center; */
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about_card div {
+    margin-bottom: 20px;
+    width: 45%;
+    padding: 24px;
+    border-radius: 16px, 16px, 0px, 0px;
+    border: 0px, 0px, 2px, 0px;
+
+    background: rgb(244, 243, 243);
+    border-bottom: 2px solid #FCB400
+}
+
+.about_card h1 {
+    /* font-family: "Plus Jakarta Sans"; */
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: -0.005em;
+    text-align: left;
+    color: #173E43;
+
+
+}
+
+.about_card p {
+    padding-top: 10px;
+    width: 526px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #173E43;
+
+
+
+}
+
+.tehcMn {
+    /* margin-top: 50px; */
+    height: 540px;
+    background: #173E43;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-left: 10%;
+
+}
+
+.lfttehcMn {
+    width: 60%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 40px;
+    
+}
+
+.rittehcMn {
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.lfttehcMn h1 {
+    width: 626px;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 58px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color:
+        #FFFFFF;
+
+
+
+
+
+}
+.lfttehcMn h1 span{
+    color: #FCB400;
+}
+.lfttehcMn p{
+    width: 650px;
+
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: left;
+color: #F2FFFF;
+}
+.successProSec{
+    /* width: 400px; */
+    display: flex;
+    /* gap: 20px; */
+    justify-content: space-around;
+
+}
+.successProSec div{
+    max-width: 300px;
+}
+
+.successProSec div h1{
+font-size: 48px;
+font-weight: 600;
+line-height: 72px;
+letter-spacing: -0.02em;
+text-align: left;
+color: #FCB400;
+
+
+}
+.successProSec div p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #F2FFFF;
+
+    
+    
+    }
