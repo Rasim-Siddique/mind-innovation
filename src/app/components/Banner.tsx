@@ -1,3 +1,5 @@
+
+
 import styles from '@/app/styles/Banner.module.css'
 import Image from 'next/image'
 
@@ -6,8 +8,9 @@ const Banner=()=>{
         <>
          <div className={styles.banner_sec} id='home'>
                 <div className={styles.leftCont}>
-                    <h1>Your  Best IT Partner </h1>
-                    <p>From custom software development to project management, our team of experts is dedicated to delivering solutions that are tailored to your unique needs.</p>
+                    <h1>AI-Enhanced Solutions for the Future of IT </h1>
+                    <p>Our AI-powered solutions make IT work better. They speed things up, handle tasks automatically, and make everything more efficient, setting new standards in the IT world.
+</p>
                      <button>Explore Now</button>
 
                 </div>

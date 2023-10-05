@@ -7,7 +7,6 @@
 .serviceSec h1{
 font-size: 64px;
 font-weight: 600;
-line-height: 81px;
 letter-spacing: -0.02em;
 text-align: left;
 color: #173E43;
@@ -27,8 +26,10 @@ color: #173E43;
    justify-content: space-evenly;
     margin-top: 40px;
     width: 40%;
-height: 244px;
-padding: 0px 32px 0px 32px;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 2%;
+    padding-bottom: 2%;
 border-radius: 24px;
 background: #f4f3f3;
 

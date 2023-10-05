@@ -8,7 +8,7 @@ const NewsLetter=()=>{
             <div className={styles.main_sec_newsLet}>
                 <div>
                     <h1>Subscribe our Newsletter</h1>
-                    <p>Subscribe to our newsletter to stay informed about our latest products, services, and promotions. Feel free to unsubscribe anytime!</p>
+                    <p>Stay up-to-date with the latest tech trends, insights, and updates from Mind Innovation. Join our newsletter to receive valuable information directly in your inbox.</p>
                    <div className={styles.subscribeLetMn}>
                     <input type="text" placeholder='Enter Your email Address' />
                     <button>Subscribe</button>

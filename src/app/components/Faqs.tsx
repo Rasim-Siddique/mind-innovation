@@ -1,3 +1,4 @@
+
 'use client'
 import React, { useState } from 'react';
 import styles from '@/app/styles/Faqs.module.css';
@@ -5,23 +6,67 @@ import styles from '@/app/styles/Faqs.module.css';
 const Faqs = () => {
   const [faqData, setFaqData] = useState([
     {
-      question: 'Can I use PureVPN on any device?',
+      question: 'What services does Mind Innovation offer?',
       answer:
-        'Yes. PureVPN is supported on a wide range of devices, including: Windows, Mac, Android, iOS, Linux, Chrome, Amazon Fire TV, Playstation, and more.',
+        'Mind Innovation offers a range of services, including Mobile App Development, Web Development, Artificial Intelligence solutions, IT Project Outsourcing, and Staff Augmentation. We tailor our services to meet your specific needs, ensuring a customized approach for your projects.',
       isOpen: false,
     },
     {
-      question: 'What devices do PurePrivacy, PureKeep, and PureEncrypt support?',
+      question: 'How can I contact Mind Innovation?',
       answer:
-        'We offer multiple solutions in plans for different devices, so you can enjoy online freedom with broader security, no matter which platform you use. PurePrivacy is available for iOS and Android devices, while PureKeep is supported on Windows and Mac. If you’re looking to encrypt your files, PureEncrypt is the perfect solution and is supported on both Windows and Mac devices.',
+        'You can reach out to us through our contact page on our website, where you will find a contact form, or you can directly email us at info@mindinnovation.co. You can also call us at +92-3345550977 for immediate assistance.',
       isOpen: false,
     },
     {
-      question: 'What is the refund policy?',
+      question: 'What industries does Mind Innovation serve?',
       answer:
-        'PureVPN offers a 31-day money-back guarantee to all its users. If you’re not satisfied with the service for any reason, which is hardly the case, you can request a refund within 31 days of your purchase. The refund policy applies to all subscription plans, excluding monthly plans. To initiate a refund, you can simply contact the PureVPN support team via live chat or email and they’ll process your request in a timely manner.',
+        ' We have experience working across various industries, including healthcare, finance, e-commerce, education, and more. Our diverse expertise allows us to adapt our solutions to meet the unique challenges of different sectors.',
       isOpen: false,
     },
+    {
+      question: 'Do you work with startups and established businesses?',
+      answer:
+        ' Yes, we work with both startups and established businesses. We offer scalable solutions that can be tailored to the specific needs and budgets of businesses at various stages of development.',
+      isOpen: false,
+    },
+    {
+      question: 'How long does it take to complete a project?',
+      answer:
+        " The timeline for each project varies depending on its complexity and scope. We work closely with you to define project milestones and timelines to ensure timely delivery. Rest assured, we're committed to delivering your project on time and within budget.",
+      isOpen: false,
+    },
+    {
+      question: 'What sets Mind Innovation apart from other tech companies?',
+      answer:
+        ' Mind Innovation stands out due to our deep expertise, commitment to innovation, proven track record of delivering results, and unwavering dedication to client success. We prioritize your goals and work collaboratively to achieve them.',
+      isOpen: false,
+    },
+    {
+      question: 'Can I see examples of your previous work?',
+      answer:
+         "Yes, you can view our portfolio on our website to see some of our past projects. These case studies highlight our capabilities and the successful outcomes we've achieved for our clients.",
+      isOpen: false,
+    },
+    {
+      question: 'Is my project idea safe with Mind Innovation?',
+      answer:
+          "Absolutely, our commitment doesn't end with project delivery. We offer ongoing maintenance and support services to ensure that your solution remains up-to-date, secure, and optimized for performance.",
+      isOpen: false,
+    },
+    {
+      question: 'Do you provide ongoing support after project completion?',
+      answer:
+         "Absolutely, our commitment doesn't end with project delivery. We offer ongoing maintenance and support services to ensure that your solution remains up-to-date, secure, and optimized for performance.",
+      isOpen: false,
+    },
+    {
+      question: "How can I stay updated with Mind Innovation's latest news and insights?",
+      answer:
+        ' You can subscribe to our newsletter on our website to receive the latest tech trends, insights, and updates from Mind Innovation directly in your inbox.',
+      isOpen: false,
+    },
+
+
   ]);
 
   const toggleAccordion = (index:any) => {

@@ -7,23 +7,7 @@ import ImageLogo from '@/app/components/ImageLogo';
 const Header = () => {
   const [activeSection, setActiveSection] = useState('home');
 
-  useEffect(() => {
-    Events.scrollEvent.register('begin', function (to, element) {
-      setActiveSection(to);
-    });
-
-    Events.scrollEvent.register('end', function (to, element) {
-      setActiveSection(to);
-    });
-
-    scrollSpy.update();
-
-    return () => {
-      Events.scrollEvent.remove('begin');
-      Events.scrollEvent.remove('end');
-      scrollSpy.unmount();
-    };
-  }, []);
+ 
 
   const handleMenuClick = (sectionName:any) => {
     setActiveSection(sectionName);

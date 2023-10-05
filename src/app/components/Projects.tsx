@@ -1,3 +1,4 @@
+
 import styles from '@/app/styles/Project.module.css'
 import Image from 'next/image'
 
@@ -16,7 +17,7 @@ const Project=()=>{
                             alt="ai-web"
                         />
                      
-                  <h1>German invoice data extraction</h1>
+                  <h1>German Invoice Data Extraction</h1>
                   <p>The project aims to streamline and simplify the process of inputting invoice data for clients.</p>
 
 
@@ -30,8 +31,8 @@ const Project=()=>{
                             alt="ai2-web"
                         />
                      
-                  <h1>German invoice data extraction</h1>
-                  <p>The project aims to streamline and simplify the process of inputting invoice data for clients.</p>
+                  <h1>Number Plate Detection</h1>
+                  <p>The photographer wants to automatically organize auto racing images into folders named after each vehicle's number plate.</p>
 
 
                     </div>    
@@ -45,8 +46,8 @@ const Project=()=>{
                             alt="ai-web"
                         />
                      
-                  <h1>German invoice data extraction</h1>
-                  <p>The project aims to streamline and simplify the process of inputting invoice data for clients.</p>
+                  <h1>WSDA SQL Game</h1>
+                  <p>Walter Shield Data Academy helps students transform their data skills and achieve their goals by offering SQL games.</p>
 
 
                     </div>   
@@ -60,8 +61,8 @@ const Project=()=>{
                             alt="ai-web"
                         />
                      
-                  <h1>German invoice data extraction</h1>
-                  <p>The project aims to streamline and simplify the process of inputting invoice data for clients.</p>
+                  <h1>TimeHive</h1>
+                  <p>TimeHive is an attendance management app that helps employees keep track of their attendance.</p>
 
 
                     </div>   

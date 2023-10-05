@@ -56,7 +56,7 @@ const Footer=()=>{
     height={24}
     alt="logo-web"
   />
-  <a style={{color:'white', textDecoration:'none'}} href="mailto:info@inaequo.net">info@inaequo.net</a>
+  <a style={{color:'white', textDecoration:'none'}} href="mailto:info@mindinnovation.co">info@mindinnovation.co</a>
 </li>
                         <li>
                         <Image
