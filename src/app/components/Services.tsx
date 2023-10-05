@@ -1,3 +1,4 @@
+
 import styles from '@/app/styles/Services.module.css'
 import Image from 'next/image'
 
@@ -18,7 +19,7 @@ const Services=()=>{
          <h1>
          Mobile App Development
          </h1>
-   <p>Create or enhance mobile applications, ensuring optimized user experience.</p>
+   <p>Craft exceptional mobile experiences that engage users and drive results.</p>
           </div>  
           <div>
           <Image
@@ -28,9 +29,9 @@ const Services=()=>{
                             alt="service1-web"
                         />
          <h1>
-         Mobile App Development
+         Web Development
          </h1>
-   <p>Create or enhance mobile applications, ensuring optimized user experience.</p>
+   <p>Create stunning websites and web applications that captivate your audience.</p>
           </div>
 
 
@@ -42,9 +43,9 @@ const Services=()=>{
                             alt="service1-web"
                         />
          <h1>
-         Mobile App Development
+         Artificial Intelligence
          </h1>
-   <p>Create or enhance mobile applications, ensuring optimized user experience.</p>
+   <p>Harness the power of AI to automate tasks, gain insights, and enhance decision-making and free yourself from manual operations.</p>
           </div>
 
 
@@ -56,9 +57,9 @@ const Services=()=>{
                             alt="service1-web"
                         />
          <h1>
-         Mobile App Development
+         IT Project Outsourcing
          </h1>
-   <p>Create or enhance mobile applications, ensuring optimized user experience.</p>
+   <p>Augment your team with our skilled professionals to boost productivity and efficiency and remain hassle-free from lengthy hiring procedures.</p>
           </div>
 
 
@@ -70,9 +71,9 @@ const Services=()=>{
                             alt="service1-web"
                         />
          <h1>
-         Mobile App Development
+         Staff Augmentation
          </h1>
-   <p>Create or enhance mobile applications, ensuring optimized user experience.</p>
+   <p>Access top talented teams on-demand to accelerate your projects.</p>
           </div>
         </div>
              
