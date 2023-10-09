@@ -17,9 +17,18 @@ const Header = () => {
     <section id='home'>
       <header className={styles.header} style={{ background: 'white' }}>
         <div className={styles.mn_hd_cntr}>
-          <div className={styles.logo_cntr}>
+        <ScrollLink
+                  to='home'
+                  spy={true}
+                  smooth={true}
+                  duration={300}
+                  activeClass='active'
+                  onClick={() => handleMenuClick('home')}
+                >
+          <div style={{cursor:"pointer"}} className={styles.logo_cntr}>
             <ImageLogo logoSrc="/mind innovation dark 2.svg" />
           </div>
+          </ScrollLink>
           <div className={styles.menu_cntr}>
             <ul>
             <ScrollLink

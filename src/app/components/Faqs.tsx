@@ -79,7 +79,7 @@ const Faqs = () => {
 
   return (
     <>
-      <div className={styles.accordion}>
+      <div className={styles.accordion} id='faqs'>
         <h1 className={styles.faqs_main_head}>Frequently Asked Questions</h1>
 
         {faqData.map((faq, index) => (

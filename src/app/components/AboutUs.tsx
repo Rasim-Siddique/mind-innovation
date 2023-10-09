@@ -28,7 +28,7 @@ const AboutUs=()=>{
                 <div className='single_abt_bx'>
                 <Image
                             className={styles.banner_img}
-                            src='/User Network.svg'
+                            src='/tech.png'
                             width={128}
                             height={128}
                             alt="bannner-web"
@@ -43,7 +43,7 @@ const AboutUs=()=>{
                 <div className='single_abt_bx'>
                 <Image
                             className={styles.banner_img}
-                            src='/User Network.svg'
+                            src='/results.png'
                             width={128}
                             height={128}
                             alt="bannner-web"
@@ -58,7 +58,7 @@ const AboutUs=()=>{
                 <div className='single_abt_bx'>
                 <Image
                             className={styles.banner_img}
-                            src='/User Network.svg'
+                            src='/solutions.png'
                             width={128}
                             height={128}
                             alt="bannner-web"
