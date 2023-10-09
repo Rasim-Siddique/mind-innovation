@@ -31,7 +31,7 @@ const Header = () => {
                   onClick={() => handleMenuClick('home')}
                 >
               <li style={{ color: activeSection === 'home' ? 'black' : 'gray' }} className={`${styles.menu_cntr_list}`}>
-               
+                
                   Home
               </li>
               </ScrollLink>

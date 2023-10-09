@@ -1,5 +1,3 @@
-
-
 import styles from '@/app/styles/Banner.module.css'
 import Image from 'next/image'
 import {Proza_Libre } from 'next/font/google'
@@ -34,9 +32,9 @@ const Banner=()=>{
                 <div className={styles.ritCont}>
                 <Image
                             className={styles.banner_img}
-                            src='/pngtree-modern-flat-design-concept-of-hiring-and-online-recruitment-with-characters-png-image_5332878.jpg'
-                            width={600}
-                            height={600}
+                            src='banner-image.svg'
+                            width={800}
+                            height={800}
                             alt="bannner-web"
                         />
 

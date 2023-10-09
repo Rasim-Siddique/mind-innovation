@@ -83,9 +83,9 @@ const Faqs = () => {
         <h1 className={styles.faqs_main_head}>Frequently Asked Questions</h1>
 
         {faqData.map((faq, index) => (
-          <div className={`${styles.item} ${faq.isOpen ? styles.active : ''}`} key={index}>
+          <div  onClick={() => toggleAccordion(index)} className={`${styles.item} ${faq.isOpen ? styles.active : ''}`} key={index}>
             <p className={styles.number}></p>
-            <h2 className={styles.button_acc} onClick={() => toggleAccordion(index)}>
+            <h2 className={styles.button_acc}>
               {faq.question}
             </h2>
             <div className={styles.iconOpen + ' ' + (faq.isOpen ? styles.hidden : '')}>

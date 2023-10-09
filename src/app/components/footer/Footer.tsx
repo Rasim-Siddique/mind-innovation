@@ -1,3 +1,4 @@
+
 import styles from '@/app/styles/Footer.module.css'
 import ImageLogo from '@/app/components/ImageLogo';
 import Image from 'next/image';
@@ -12,34 +13,30 @@ const Footer=()=>{
                 <ImageLogo logoSrc="/mind innovation light 1.svg" />
                 <p>Our team of experienced professionals is dedicated to helping you achieve your goals and thrive in a rapidly evolving digital landscape.</p>
                  <div>
-                 <Image
-                            className={styles.logo_img}
-                            src='/linkedin.svg'
-                            width={32}
-                            height={32}
-                            alt="logo-web"
-                        />
-                        <Image
-                            className={styles.logo_img}
-                            src='facebook.svg'
-                            width={32}
-                            height={32}
-                            alt="logo-web"
-                        />
-                        <Image
-                            className={styles.logo_img}
-                            src='twitter.svg'
-                            width={32}
-                            height={32}
-                            alt="logo-web"
-                        />
-                        <Image
-                            className={styles.logo_img}
-                            src="instagram.svg"
-                            width={32}
-                            height={32}
-                            alt="logo-web"
-                        />
+                 <a
+					target="_blank" rel="noopener noreferrer"
+
+					href="https://pk.linkedin.com/company/inaequo-solutions">
+					<Image src='linkedin.svg' alt="upwork-icon" width={50} height={35} />
+					</a>
+                    <a
+					target="_blank" rel="noopener noreferrer"
+
+					href="https://twitter.com/inaequosolution">
+					<Image src='twitter.svg' alt="twitter-icon" width={50} height={35} />
+					</a>
+                    <a
+					target="_blank" rel="noopener noreferrer"
+
+					href="https://www.facebook.com/inaequosolutions">
+					<Image src='facebook.svg' alt="facebook-icon" width={50} height={35} />
+					</a>
+                    <a
+					target="_blank" rel="noopener noreferrer"
+
+					href="https://www.instagram.com/inaequosolutions/?hl=en">
+					<Image src='instagram.svg' alt="instagram-icon" width={50} height={35} />
+					</a>
                  </div>
                 </div>
                 <div className={styles.rit_cont__ftbox}>
