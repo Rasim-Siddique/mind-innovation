@@ -1,4 +1,3 @@
-
 import styles from '@/app/styles/Project.module.css'
 import Image from 'next/image'
 
@@ -32,7 +31,7 @@ const Project=()=>{
                         />
                      
                   <h1>Number Plate Detection</h1>
-                  <p>The photographer wants to automatically organize auto racing images into folders named after each vehicle's number plate.</p>
+                  <p>The photographer wants to automatically organize auto racing images into folders named after each vehicles number plate.</p>
 
 
                     </div>    

@@ -35,7 +35,7 @@ const AboutUs=()=>{
                         />
                         <h1>Innovation Driven</h1>
 
-                        <p>Innovation drives us. We're constantly exploring inventive solutions, from apps to AI, to solve problems creatively and add value to your projects.</p>
+                        <p>Innovation drives us. We are constantly exploring inventive solutions, from apps to AI, to solve problems creatively and add value to your projects.</p>
 
 
                 </div>
@@ -50,7 +50,7 @@ const AboutUs=()=>{
                         />
                         <h1>Results Oriented</h1>
 
-                        <p>Our track record speaks for itself. We're dedicated to delivering measurable results that align with your business objectives, ensuring tangible success.</p>
+                        <p>Our track record speaks for itself. We are dedicated to delivering measurable results that align with your business objectives, ensuring tangible success.</p>
 
 
                 </div>
@@ -65,7 +65,7 @@ const AboutUs=()=>{
                         />
                         <h1>Client-Centric</h1>
 
-                        <p>We're not just a service provider; we're your dedicated partner. Our commitment to your success means we go the extra mile, paying attention to every detail to achieve your goals.</p>
+                        <p>We are not just a service provider; we are your dedicated partner. Our commitment to your success means we go the extra mile, paying attention to every detail to achieve your goals.</p>
 
 
                 </div>
