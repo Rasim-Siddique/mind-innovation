@@ -63,3 +63,17 @@ color: #173E43;
 
     
     }
+
+@media (max-width: 768px) {
+
+    .serviceCard{
+        flex-direction: column;
+                flex-wrap: nowrap;
+            }
+            .serviceCard div{
+                width: 100%;
+            
+            
+            }
+
+}

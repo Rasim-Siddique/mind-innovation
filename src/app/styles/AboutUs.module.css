@@ -171,8 +171,24 @@ color: #FCB400;
 
 @media (max-width: 768px) {
 
+
+    .about_card div{
+        width: 100%;
+        padding: 30px;
+    
+    }
+    
+    .about_card{
+   flex-direction: column;
+   flex-wrap: nowrap;
+
+    }
    .rittehcMn{
     display: none;
    }
+   .tehcMn {
+        padding-left: 0;
+    
+    }
 
 }
