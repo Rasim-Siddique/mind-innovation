@@ -102,7 +102,7 @@ const AboutUs=()=>{
             <div className={styles.rittehcMn}>
 
             <Image
-                            className={styles.banner_img}
+                            className={styles.about_img}
                             src='/Rectangle 4.svg'
                             width={534}
                             height={540}

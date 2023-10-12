@@ -16,7 +16,7 @@ const NewsLetter=()=>{
                 </div>
                 <div>
                 <Image
-                            className={styles.banner_img}
+                            className={styles.newlette_img}
                             src='/Envelope Mail.svg'
                             width={256}
                             height={256}

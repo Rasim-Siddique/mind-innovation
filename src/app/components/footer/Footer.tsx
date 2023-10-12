@@ -7,7 +7,7 @@ const Footer=()=>{
     return(
         <>
 
-        <footer style={{background:'#0F2C30', height:418}} className={styles.ftbox} id='footer'>
+        <footer style={{background:'#0F2C30'}} className={styles.ftbox} id='footer'>
             <div className={styles.mn_cont__ftbox}>
                 <div className={styles.lft_cont__ftbox}>
                 <ImageLogo logoSrc="/mind innovation light 1.svg" />
@@ -53,7 +53,7 @@ const Footer=()=>{
     height={24}
     alt="logo-web"
   />
-  <a style={{color:'white', textDecoration:'none'}} href="mailto:info@mindinnovation.co">info@mindinnovation.co</a>
+  <a style={{color:'white', textDecoration:'none', fontSize:15}} href="mailto:info@mindinnovation.co">info@mindinnovation.co</a>
 </li>
                         <li>
                         <Image

@@ -32,7 +32,9 @@ color: #FFFFFF;
     
 font-size: 1.8rem;
 font-weight: 400;
-letter-spacing: 0em;
+letter-spacing: 0.1rem;
+word-spacing: 0.1rem;
+line-height: 30px;
 text-align: left;
 color: #F2FFFF;
 
@@ -84,3 +86,26 @@ cursor: pointer;
     }
 
 
+
+
+
+
+@media (max-width: 900px) {
+
+    .main_sec_newsLet button{
+        margin-top: 40px;
+    }   
+
+
+}
+
+
+@media (max-width: 768px) {
+
+    .main_sec_newsLet button{
+        margin-top: 40px;
+    }   
+    .newlette_img{
+        display: none;
+    } 
+}

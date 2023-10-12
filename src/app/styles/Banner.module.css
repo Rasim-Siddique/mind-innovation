@@ -1,11 +1,11 @@
 .banner_sec {
-    padding-left: 3%;
-    padding-right: 3%;
+    padding-left: 6%;
+    padding-right: 6%;
 
-    padding-bottom: 30px;
-    height: 90vh;
+    /* padding-bottom: 30px; */
+    height: 80vh;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     background-color: white;
 }
@@ -13,8 +13,9 @@
 
 .leftCont {
     display: flex;
+    justify-content: flex-start;
     flex-direction: column;
-    gap: 40px;
+    gap: 30px;
     /* max-width: 50%; */
 }
 
@@ -35,11 +36,11 @@
     max-width: 620px;
 
     /* font-family: Plus Jakarta Sans; */
-    font-size: 1.8rem;
+    font-size: 2.0rem;
     font-weight: 400;
     line-height: 35px;
     letter-spacing: 2px;
-    text-align: left;
+    word-spacing: 3px;
     color: #173E43;
 
 
@@ -53,10 +54,10 @@
     border: 1px solid #FCB400;
     font-size: 1.8rem;
     font-weight: 600;
-    line-height: 27px;
     letter-spacing: 0em;
     color: #3E3509;
     cursor: pointer;
+    font-family:  monospace;
 
 
 
@@ -75,12 +76,30 @@
 .ritCont{
     display: flex;
     justify-content: flex-end;
-    align-items: center;
-    /* width: 50%; */
 }
 .banner_img{
 
     max-width: 100%;
     max-height: 100%;
     /* width: 100%; */
+}
+
+
+
+@media (max-width: 900px) {
+
+    .leftCont {
+        
+        gap: 10px;
+    }
+
+}
+
+
+@media (max-width: 768px) {
+
+   .ritCont{
+    display: none;
+   }
+
 }
