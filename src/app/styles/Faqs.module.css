@@ -5,7 +5,7 @@
     padding-right: 10%;
 }
 .faqssec{
-font-size: 64px;
+font-size: 6.4rem;
 font-weight: 600;
 line-height: 81px;
 letter-spacing: -0.02em;
@@ -49,7 +49,7 @@ color: #173E43;
 }
 
 .button_acc {
-    font-size: 22px;
+    font-size: 2.2rem;
     text-transform: capitalize;
 }
 
@@ -66,7 +66,7 @@ color: #173E43;
     font-family: 'HelveticaNeue';
     font-style: normal;
     font-weight: 700;
-    font-size: 48px;
+    font-size: 4.8rem;
     line-height: 110%;
 
     text-align: center;
@@ -86,7 +86,7 @@ color: #173E43;
 .hiddenbox p {
     line-height: 1.6;
     margin-bottom: 44px;
-    font-size: 20px;
+    font-size: 2rem;
     letter-spacing: 0.5px;
     word-spacing: 3px;
 }
@@ -100,7 +100,7 @@ color: #173E43;
 .hiddenbox ul li {
     margin-left: 16px;
     line-height: 1.5;
-    font-size: 20px;
+    font-size: 2rem;
     letter-spacing: 0.5px;
     word-spacing: 3px;
 }
@@ -118,7 +118,7 @@ color: #173E43;
 }
 
 .icon_plus_minus {
-    font-size: 25px;
+    font-size: 2.5rem;
 }
 
 @keyframes borderline {
@@ -142,7 +142,7 @@ color: #173E43;
 /* faqs media query  */
 @media screen and (max-width: 400px) {
     .faqs_main_head {
-        font-size: 18px;
+        font-size: 1.8rem;
         line-height: 110%;
 
         text-align: center;
@@ -187,20 +187,20 @@ color: #173E43;
     .hiddenbox p {
         line-height: 1.2;
         margin-bottom: 44px;
-        font-size: 12px;
+        font-size: 1.2rem;
         letter-spacing: 0.5px;
         word-spacing: 3px;
     }
 
     .icon_plus_minus {
-        font-size: 20px;
+        font-size: 2rem;
     }
 
 }
 
 @media screen and (max-width: 1200px) and (min-width: 401px) {
     .faqs_main_head {
-        font-size: 22px;
+        font-size: 2.2rem;
         line-height: 110%;
 
         text-align: center;
@@ -239,18 +239,18 @@ color: #173E43;
     }
 
     .button_acc {
-        font-size: 15px;
+        font-size: 1.5rem;
     }
 
     .hiddenbox p {
         line-height: 1.4;
         margin-bottom: 44px;
-        font-size: 15px;
+        font-size: 1.5rem;
         letter-spacing: 0.5px;
         word-spacing: 3px;
     }
 
     .icon_plus_minus {
-        font-size: 22px;
+        font-size: 2.2rem;
     }
 }

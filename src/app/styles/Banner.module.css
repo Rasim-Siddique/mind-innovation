@@ -22,7 +22,7 @@
     max-width: 
 680px;
 
-    font-size: 64px;
+    font-size: 6.4rem;
     font-weight: bolder;
     letter-spacing: -0.02em;
     text-align: left;
@@ -35,7 +35,7 @@
     max-width: 620px;
 
     /* font-family: Plus Jakarta Sans; */
-    font-size: 18px;
+    font-size: 1.8rem;
     font-weight: 400;
     line-height: 35px;
     letter-spacing: 2px;
@@ -51,7 +51,7 @@
     border-radius: 6px;
     background: #FCB400;
     border: 1px solid #FCB400;
-    font-size: 18px;
+    font-size: 1.8rem;
     font-weight: 600;
     line-height: 27px;
     letter-spacing: 0em;

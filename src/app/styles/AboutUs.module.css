@@ -9,7 +9,7 @@
 }
 
 .top_aboutHd h1 {
-    font-size: 64px;
+    font-size: 6.4rem;
     font-weight: 600;
     letter-spacing: -0.02em;
     color: #173E43;
@@ -39,7 +39,7 @@ background: #f4f3f3;
 }
 
 .about_card h1 {
-    font-size: 24px;
+    font-size: 2.4rem;
     font-weight: 600;
     letter-spacing: -0.005em;
     text-align: left;
@@ -51,7 +51,7 @@ background: #f4f3f3;
 .about_card p {
     padding-top: 10px;
     max-width: 526px;
-    font-size: 18px;
+    font-size: 1.8rem;
     font-weight: 400;
     letter-spacing: 0em;
     text-align: left;
@@ -90,7 +90,7 @@ height: 540px;
 
 .lfttehcMn h1 {
     width: 626px;
-    font-size: 48px;
+    font-size: 4.8rem;
     font-weight: 600;
     line-height: 58px;
     letter-spacing: -0.02em;
@@ -109,7 +109,7 @@ height: 540px;
 .lfttehcMn p{
     width: 650px;
 
-font-size: 18px;
+font-size: 1.8rem;
 font-weight: 400;
 line-height: 27px;
 letter-spacing: 0em;
@@ -128,7 +128,7 @@ color: #F2FFFF;
 }
 
 .successProSec div h1{
-font-size: 48px;
+font-size: 4.8rem;
 font-weight: 600;
 line-height: 72px;
 letter-spacing: -0.02em;
@@ -138,7 +138,7 @@ color: #FCB400;
 
 }
 .successProSec div p{
-    font-size: 18px;
+    font-size: 1.8rem;
     font-weight: 400;
     line-height: 27px;
     letter-spacing: 0em;

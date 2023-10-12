@@ -14,7 +14,7 @@ background: #173E43;
     align-items: center;
 }
 .main_sec_newsLet h1{
-font-size: 48px;
+font-size: 4.8rem;
 font-weight: 600;
 letter-spacing: -0.02em;
 text-align: left;
@@ -30,7 +30,7 @@ color: #FFFFFF;
     max-width: 598px;
     opacity: 0.75px;
     
-font-size: 18px;
+font-size: 1.8rem;
 font-weight: 400;
 letter-spacing: 0em;
 text-align: left;
@@ -57,7 +57,7 @@ border: 1px solid #617E82
     }
 
     .main_sec_newsLet input::placeholder{
-font-size: 14px;
+font-size: 1.4rem;
 font-weight: 400;
 letter-spacing: 0em;
 text-align: left;
@@ -75,7 +75,7 @@ border-radius: 6px;
 background: #FCB400;
 border: 1px solid #FCB400;
 border-radius: 8px;
-font-size: 18px;
+font-size: 1.8rem;
 font-weight: 600;
 letter-spacing: 0em;
 color: #FFFFFF;

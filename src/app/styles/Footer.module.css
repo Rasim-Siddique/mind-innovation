@@ -32,7 +32,7 @@
 .lft_cont__ftbox p {
     max-width: 585px;
     /* font-family: "Plus Jakarta Sans"; */
-    font-size: 18px;
+    font-size: 1.8rem;
     font-weight: 400;
     line-height: 27px;
     letter-spacing: 0em;
@@ -61,7 +61,7 @@
 
 .rit_cont__ftbox ul li h1 {
     /* font-family: "Plus Jakarta Sans"; */
-    font-size: 24px;
+    font-size: 2.4rem;
     font-weight: 600;
     line-height: 36px;
     letter-spacing: 0em;
@@ -74,7 +74,7 @@
 .rit_cont__ftbox ul li p {
 
 
-    font-size: 18px;
+    font-size: 1.8rem;
     font-weight: 400;
     /* line-height: 27px; */
     letter-spacing: 0em;
@@ -93,7 +93,7 @@ border: 1px solid #617E82
 
 }
 .copyrightBx p{
-font-size: 16px;
+font-size: 1.6rem;
 font-weight: 400;
 line-height: 20px;
 letter-spacing: 0em;

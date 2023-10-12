@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+
+html{
+    font-size: 62.5%;
+}
 .global{
   min-height: 80vh;
   display: flex;
@@ -13,9 +17,32 @@
 }
 
 .global h2{
-  font-size: 64px;
+  font-size: 6.4rem;
 }
 
 .global p{
-  font-size: 42px;
+  font-size: 4.2rem;
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  html{
+    font-size: 32.5%;
+}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  html{
+    font-size: 42.5%;
+}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  html{
+    font-size: 52.5%;
+}
 }

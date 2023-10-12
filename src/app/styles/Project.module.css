@@ -11,7 +11,7 @@
     gap: 40px;
 }
 .projectSec h1{
-font-size: 64px;
+font-size: 6.4rem;
 font-weight: 600;
 letter-spacing: -0.02em;
 text-align: left;
@@ -38,7 +38,7 @@ box-shadow: 2px 2px 10px rgb(244, 244, 244);
 
     padding-top: 15px;
     max-width: 508px;
-font-size: 32px;
+font-size: 3.2rem;
 font-weight: 600;
 letter-spacing: -0.02em;
 text-align: left;
@@ -55,7 +55,7 @@ color: #173E43;
 
     max-width: 508px;
 
-font-size: 18px;
+font-size: 1.8rem;
 font-weight: 400;
 letter-spacing: 0em;
 text-align: left;
